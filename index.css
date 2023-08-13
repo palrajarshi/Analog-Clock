@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lato", sans-serif;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+body::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: url(images/bigben.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -1;
+  opacity: 80%;
+}
+/* Styling Starts here */
+.container {
+  height: 30rem;
+  width: 39rem;
+}
+.img-box {
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+.img-box img {
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+}
+
+#second-hand {
+  top: 19.5%;
+  left: 50.35%;
+  background: #00000078;
+  height: 31%;
+}
+#minute-hand {
+  top: 21.5%;
+  left: 50.35%;
+  background: #e913139c;
+  height: 29%;
+}
+#hour-hand {
+  top: 29.2%;
+  left: 50.35%;
+  background: blue;
+  height: 21%;
+}
+.clock-hands {
+  transform-origin: bottom;
+  width: 0.45rem;
+  position: absolute;
+  border-radius: 1rem;
+  box-shadow: 0.2rem 0.2rem rgba(0, 0, 0, 0.3);
+}
+.heading {
+  text-align: center;
+  border-radius: 1rem;
+  background-color: yellow;
+  padding: 0.6rem;
+  /* width: 23rem; */
+}
+/* Responsive */
+@media (max-width: 625px) {
+  .container {
+    height: 26rem;
+    width: 27rem;
+  }
+}
+@media (max-width: 450px) {
+  .container {
+    height: 23rem;
+    width: 21rem;
+  }
+}
+@media (max-width: 345px) {
+    .heading{
+        font-size: 0.8rem;
+    }
+  .container {
+    height: 18rem;
+    width: 17rem;
+  }
+}
+@media (max-width: 280px) {
+    .heading{
+        font-size: 0.6rem;
+    }
+  .container {
+    height: 14rem;
+    width: 13rem;
+  }
+  html,body{
+    overflow: hidden;
+  }
+}
