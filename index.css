@@ -70,6 +70,16 @@ body::before {
   padding: 0.6rem;
   /* width: 23rem; */
 }
+.circle{
+  z-index: 5;
+  height: 5%;
+  width: 4%;
+  border-radius: 50%;
+  background: black;
+  position: absolute;
+  top: 47.7%;
+  left: 49%
+}
 /* Responsive */
 @media (max-width: 625px) {
   .container {
