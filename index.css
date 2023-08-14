@@ -77,8 +77,8 @@ body::before {
   border-radius: 50%;
   background: black;
   position: absolute;
-  top: 47.7%;
-  left: 49%
+  top: 47.3%;
+  left: 48.7%
 }
 /* Responsive */
 @media (max-width: 625px) {
@@ -96,7 +96,7 @@ body::before {
   height: 5.9%;
   width: 6%;
   top: 47.2%;
-  left: 49.3%
+  left: 48.8%
   }
 }
 @media (max-width: 345px) {
