@@ -92,6 +92,12 @@ body::before {
     height: 23rem;
     width: 21rem;
   }
+  .circle{
+  height: 5.9%;
+  width: 6%;
+  top: 47.2%;
+  left: 49.3%
+  }
 }
 @media (max-width: 345px) {
     .heading{
